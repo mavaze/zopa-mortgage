@@ -1,0 +1,12 @@
+spring:
+  main:
+    web-application-type: none
+    banner-mode: log
+logging:
+  level:
+    root: TRACE
+zopa:
+  mortgage:
+    loan-period-months: 36
+    loan-period-days: 1080
+    strategy: DAILY
